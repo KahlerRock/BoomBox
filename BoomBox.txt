@@ -1,0 +1,24 @@
+BoomBox
+	Java because python modules suck
+	Design
+		Simple GUI for searching and selecting the video 
+		Show video playing, next up, queue
+		Ability to pause, play, rewind or skip
+		Edit queue order
+		Display room code
+		Buttons to join/create a room
+		Button to disband room
+		Ability to limit users number of audio request
+	Host Abilities
+		Remove songs from queue
+		Remove users from room
+		Make room open or invite only
+		Change room code after room creation
+			time limit
+	Normal User Priveleges
+		Add songs to queue
+		mute audio
+		vote to skip song
+		leave room
+		
+		
