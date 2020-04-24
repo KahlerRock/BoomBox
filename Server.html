@@ -5,9 +5,18 @@
     <a href="idx.html" name="idx.html">idx</a>
 
     <body>
-        <h1 id="loaded">unloaded</h1>
-        <iframe width="1" height="1" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>
+        <p id="loadCheck">
+            <h1 id="player">Player.js: unloaded</h1>
+        </p>
+        <form>
+            <label for="searchBar">Song Name: </label>
+            <input type="text" id="searchBar" name="searchBar" onfocus="this.value = ''" value="Search here..."></br></br>
+            <input type="button" value="Search" onclick="search()">
+        </form>
+        <p>Up Next:</p>
+        <div id="songList"></div>
     </body>
 
     <script src="Player.js"></script>
+    
 </html>
